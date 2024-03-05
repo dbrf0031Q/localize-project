@@ -1,0 +1,69 @@
+
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Regular.woff2') format('woff2'),
+        url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Regular.woff') format('woff'),
+        url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Regular.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Semibold.ttf') format('woff2'),
+        url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Semibold.woff') format('woff'),
+        url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Semibold.woff2') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.beige {
+    height: 638px;
+  }
+  
+  .beige-cards {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1290px;
+    margin-left: 15px;
+    margin-right: 15px;
+    align-items: center;
+    margin-bottom: 80px;
+    margin-top: 80px;
+  }
+  
+  .image {
+    flex: 1 0 50%;
+    background-color: #FFF8E4;
+  }
+  
+  .text {
+    flex: 1 0 50%;
+  }
+  
+  h5,
+  h6 {
+    font-size: 20px;
+    text-align: left;
+    margin: 100px;
+    font-family: 'Graphik LCG';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  .card-text {
+    color: #000;
+    font-display: swap;
+    margin: 100px;
+    font-family: 'Graphik LCG';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  .underline {
+    text-decoration: underline;
+  }
+  
