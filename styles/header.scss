@@ -48,6 +48,9 @@
         display: flex;
         align-items: center;
         gap: 50px;
+        font-size: 15px;
+        font: 400;
+        margin-right: 180px;
     }
 }
 
@@ -116,7 +119,6 @@ li {
     font-family: 'Graphik LCG';
     font-style: normal;
     font-weight: 400px;
-    padding-left: 40px;
 }
 
 a {
@@ -169,6 +171,7 @@ a {
         padding: 0 36px;
         line-height: 50px;
         font-size: 16px;
+        margin-left: 5px;
         font-family: 'Graphik LCG';
         font-weight: normal;
         font-style: normal;
@@ -239,16 +242,29 @@ h3 {
         .container-title {
             flex: 1;
             max-width: 620px;
+            margin-bottom: 20px;
         }
-        .try-all {
+        .localization-definition {
+            font-size: 25px;
+            font-family: 'Graphik LCG';
+            font-weight: 600;
+            font-style: normal;
+            font-display: swap;
+            margin-bottom: 20px;
+        }
+        .page__try-all {
             font-size: 15px;
             font-family: 'Graphik LCG';
             font-weight: 600;
             font-style: normal;
             font-display: swap;
-            margin-top: 15px;
+            margin-top: 20px;
         }
         .page {
             padding-top: 130px;
             padding-bottom: 170px;
+        }
+        .page__image {
+            width: 759px;
+            height: 529px;
         }
