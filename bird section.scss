@@ -1,0 +1,45 @@
+
+@font-face {
+  font-family: 'Graphik LCG';
+  src: url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Regular.woff2') format('woff2'),
+      url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Regular.woff') format('woff'),
+      url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Regular.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Graphik LCG';
+  src: url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Semibold.ttf') format('woff2'),
+      url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Semibold.woff') format('woff'),
+      url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Semibold.woff2') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.bird-div, .bird-image-div {
+    flex: 1;
+    margin: 10px;
+  }
+
+.bird {
+    padding-top: 169px;
+    padding-bottom: 169px;
+  }
+
+.birdheader {
+    font-display: swap;
+    font-family: Graphik LCG;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  .bird-text {
+    font-display: swap;
+    font-family: Graphik LCG;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+  }

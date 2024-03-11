@@ -1,0 +1,99 @@
+
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Regular.woff2') format('woff2'),
+        url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Regular.woff') format('woff'),
+        url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Regular.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Semibold.ttf') format('woff2'),
+        url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Semibold.woff') format('woff'),
+        url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Semibold.woff2') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.beige {
+   padding-bottom: 150px;
+   padding-top: 60px;
+   padding-right: 44px;
+   padding-left: 44px;
+  }
+
+  .beige1 {
+    padding-bottom: 150px;
+    padding-top: 50px;
+    padding-right: 44px;
+    padding-left: 44px;
+   }
+   .beige2 {
+    padding-bottom: 150px;
+    padding-top: 50px;
+    padding-right: 44px;
+    padding-left: 44px;
+   }
+   .beige3 {
+    padding-bottom: 80px;
+    padding-top: 50px;
+    padding-right: 44px;
+    padding-left: 44px;
+   }
+  
+  
+  .image {
+    flex: 1 0 50%;
+    background-color: #FFF8E4;
+  }
+  
+  .text {
+    flex: 1 0 50%;
+  }
+  
+  .text-header {
+    font-size: 50px;
+    text-align: left;
+    font-family: 'Graphik LCG';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    text-align: left;
+    margin-right: 166px;
+    margin-left: 44px;
+    margin-top: 145.5px;
+  }
+
+  .text-button {
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Graphik LCG';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    text-align: left;
+    margin-right: 166px;
+    margin-left: 44px;
+  }
+  
+  .card-text {
+    color: #000;
+    font-display: swap;
+    font-family: 'Graphik LCG';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: left;
+    margin-right: 166px;
+    margin-left: 44px;
+  }
+  
+  .underline {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 20px;
+  }
+  

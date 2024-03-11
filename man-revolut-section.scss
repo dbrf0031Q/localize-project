@@ -1,0 +1,57 @@
+
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Regular.woff2') format('woff2'),
+        url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Regular.woff') format('woff'),
+        url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Regular.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Semibold.ttf') format('woff2'),
+        url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Semibold.woff') format('woff'),
+        url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Semibold.woff2') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.quatotion {
+    font-size: 30px;
+    text-align: left;
+    font-family: 'Graphik LCG';
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+.revolut-text-logo {}
+
+.revolut-text {
+    max-width: 920px;
+    padding: 110px;
+}
+
+.rev-div {
+    height: 72px;
+    padding: 20px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+.manrevolut {
+   background-color: #C9E8F2;
+   padding-top: 20px;
+   padding-bottom: 203px;
+}
+
+.revolut-photo {
+    width: 310px;
+    height: 310px;
+}
+.managerimage {
+    height: 166px;
+}

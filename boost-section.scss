@@ -1,0 +1,76 @@
+
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Regular.woff2') format('woff2'),
+        url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Regular.woff') format('woff'),
+        url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Regular.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Semibold.ttf') format('woff2'),
+        url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Semibold.woff') format('woff'),
+        url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Semibold.woff2') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.card-text {
+    font-size: 20px;
+    margin: 100px;
+    color: #000000;
+    font-family: 'Graphik LCG';
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+.boost {
+    padding-top: 154px;
+    padding-bottom: 214px;
+}
+
+.boost-card {
+    flex: 1 0 33.33%;
+    align-self: center;
+    gap: 20px;
+}
+
+.boostheader {
+    font-size: 50px;
+    font-family: 'Graphik LCG';
+    text-align: center;
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    margin-bottom: 20px;
+}
+
+.boostp {
+    font-size: 20px;
+    font-family: 'Graphik LCG';
+    font-weight: 600;
+    text-align: left;
+    font-style: normal;
+    font-display: swap;
+    margin-right: 60px;
+}
+
+
+.boost-div-header {
+    font-size: 30px;
+    font-family: 'Graphik LCG';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    text-align: left;
+}
+.container-boost {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1290px;
+    text-align: center;
+}

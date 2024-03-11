@@ -1,0 +1,198 @@
+
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Regular.woff2') format('woff2'),
+        url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Regular.woff') format('woff'),
+        url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Regular.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Semibold.ttf') format('woff2'),
+        url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Semibold.woff') format('woff'),
+        url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Semibold.woff2') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.localization-companies {
+    padding-top: 98px;
+    padding-bottom: 98px;
+    background-color: #FF9C7D;
+}
+
+.tool {
+    font-size: 50px;
+    font-family: 'Graphik LCG';
+    margin-left: 285px;
+    margin-right: 285px;
+    margin-top: 98px;
+    margin-bottom: 98px;
+}
+
+
+.whylocalize-sec {
+    padding-top: 120px;
+    padding-bottom: 180px;
+    background-color: #FFF8E4;
+}
+
+.whylocalize-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1290px;
+    margin-bottom: 40px;
+}
+
+.whylocalize-div-card {
+    flex: 1 0 33.3%;
+}
+
+.whylocalize-header-div {
+    flex: 1;
+}
+
+.whylocalize-header-main {
+    font-size: 50px;
+    font-family: 'Graphik LCG';
+    font-style: normal;
+    font-display: swap;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.whylocalize-header {
+    font-size: 25px;
+    font-style: normal;
+    font-display: swap;
+    font-family: 'Graphik LCG';
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.whylocalize-text {
+    font-size: 18px;
+    font-family: 'Graphik LCG';
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    gap: 3px;
+    margin-top: 15px;
+    margin-right: 40px;
+}
+
+.localization-image-div {
+    display: flex;
+    align-items: flex-end;
+    gap: 32px;
+}
+
+.content-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.div-tool {
+    align-self: flex-start;
+    margin: 30px;
+}
+
+.logo-for-footer-div {
+    align-self: flex-end;
+    width: 100%;
+}
+
+.Learn {
+    font-size: 20px;
+    font-family: 'Graphik LCG';
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    text-align: left;
+}
+
+.Learn-ul {
+    font-size: 20px;
+    font-family: 'Graphik LCG';
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    text-align: left;
+}
+
+.integ-button {
+    background-color: #FF6336;
+    color: aliceblue;
+    border-color: #FF6336;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 16px 20px;
+    align-items: center;
+    font-family: 'Graphik LCG';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.integ-button-div {
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding-top: 30px;
+}
+
+.easy-localization {
+    padding-top: 161px;
+    padding-bottom: 192px;
+    background-color: #FF9C7D;
+    text-align: center;
+}
+
+.easy-loc-text {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 30px;
+    font-style: normal;
+    font-display: swap;
+    font-family: 'Graphik LCG';
+    align-items: center;
+}
+
+.try-button-black {
+    color: rgb(254, 254, 254);
+    border-color: #000000;
+    background-color: #000000;
+    font-family: 'Graphik LCG';
+    font-size: 16px;
+    cursor: pointer;
+    padding: 16px 30px;
+    align-items: center;
+    font-family: 'Graphik LCG';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    margin: 30px;
+}
+
+.Learn a {
+    text-decoration: underline;
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    font-family: 'Graphik LCG';
+    font-size: 20px;
+    text-align: left;
+}
+
+.easy-header {
+    margin-bottom: 20px;
+    font-size: 65px;
+    line-height: 75px;
+}
+
+    

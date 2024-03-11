@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Regular.woff2') format('woff2'),
+        url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Regular.woff') format('woff'),
+        url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Regular.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Semibold.ttf') format('woff2'),
+        url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Semibold.woff') format('woff'),
+        url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Semibold.woff2') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.header {
+    border-bottom: 1px solid #CCCCCC;
+    padding: 34px 5px;
+
+    &__nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__left {
+        display: flex;
+        align-items: center;
+        gap: 57px;
+    }
+
+    &__right {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        font-size: 15px;
+        font: 400;
+        margin-right: 180px;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul,
+ol {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.container {
+    max-width: 1330px;
+    padding: 0 20px;
+    margin: 0 auto;
+
+    &--header {
+        padding: 0;
+    }
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+    gap: 57px;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+nav {
+    font-size: 15px;
+    font-family: 'Graphik LCG';
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+
+li {
+    display: inline;
+    color: black;
+    font-size: 15px;
+    font-family: 'Graphik LCG';
+    font-style: normal;
+    font-weight: 400px;
+}
+
+a {
+    display: inline;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: 'Graphik LCG';
+    font-weight: 400px;
+}
+
+.header-localise {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: gray;
+    border-bottom: 1px solid;
+}
+.button {
+    &--red,
+    &--white {
+      &.button--large {
+        padding: 0 42px;
+        margin-top: 20px;
+        line-height: 60px;
+        font-size: 16px;
+        font-family: 'Graphik LCG';
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+      &.button--white {
+        background-color: #fff;
+        color: #000;
+        border-color: #000;
+        border: 1px solid;
+        padding: 0 36px;
+        line-height: 50px;
+        margin-left: 10px;
+        font-size: 16px;
+        font-family: 'Graphik LCG';
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+      &.button--red {
+        background-color: #FF6336;
+        color: #fff;
+        border-color: #FF6336;
+        padding: 0 36px;
+        line-height: 50px;
+        font-size: 16px;
+        margin-left: 5px;
+        font-family: 'Graphik LCG';
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+    }
+  }
+  
+  .page {
+    &__inputs {
+      .button {
+        &--red,
+        &--white {
+          &.button--large {
+            margin-right: 10px;
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+  }
+  
+
+.logodiv {
+    display: flex;
+    align-items: left;
+}
+
+h3 {
+    font-size: 65px;
+    font-family: 'Graphik LCG';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.header-top-right {
+    display: flex;
+    font-family: 'Graphik LCG';
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    margin-left: 150px;
+}
+
+        .logodiv {
+            display: flex;
+            align-items: left;
+        }
+
+        h3 {
+            font-size: 65px;
+            font-family: 'Graphik LCG';
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        .header-top-right {
+            display: flex;
+            font-family: 'Graphik LCG';
+            font-weight: 600;
+            font-style: normal;
+            font-display: swap;
+            margin-left: 150px;
+        }
+
+        .container-title {
+            flex: 1;
+            max-width: 620px;
+            margin-bottom: 20px;
+        }
+        .localization-definition {
+            font-size: 25px;
+            font-family: 'Graphik LCG';
+            font-weight: 600;
+            font-style: normal;
+            font-display: swap;
+            margin-bottom: 20px;
+        }
+        .page__try-all {
+            font-size: 15px;
+            font-family: 'Graphik LCG';
+            font-weight: 600;
+            font-style: normal;
+            font-display: swap;
+            margin-top: 20px;
+        }
+        .page {
+            padding-top: 130px;
+            padding-bottom: 170px;
+        }
+        .page__image {
+            width: 759px;
+            height: 529px;
+        }

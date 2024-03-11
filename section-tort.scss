@@ -1,0 +1,75 @@
+
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Regular.woff2') format('woff2'),
+        url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Regular.woff') format('woff'),
+        url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Regular.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Semibold.ttf') format('woff2'),
+        url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Semibold.woff') format('woff'),
+        url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Semibold.woff2') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.tort {
+    width: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #DABC98;
+
+    &--background {
+        background-color: #DABC98;
+    }
+
+    &__container {
+        margin: 0 auto;
+        max-width: 1290px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__description {
+        position: relative;
+
+    }
+
+    &__text {
+        font-size: 35px;
+        font-family: 'Graphik LCG';
+        margin-left: 30px;
+        padding: 47px;
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    &__text::after {
+        content: '';
+        position: absolute;
+        right: -10px;
+        top: 0;
+        width: 1px;
+        background-color: black;
+        width: 100%;
+    }
+
+    &__item {
+        width: 809px;
+        padding: 20px;
+        display: inline-flex;
+    }
+
+    &__text-div {
+        width: 481px;
+        padding: 20px;
+        margin-left: 47px;
+    }
+}

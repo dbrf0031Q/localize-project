@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+  }
+  
+@font-face {
+  font-family: 'Graphik LCG';
+  src: url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Regular.woff2') format('woff2'),
+      url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Regular.woff') format('woff'),
+      url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Regular.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Graphik LCG';
+  src: url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Semibold.ttf') format('woff2'),
+      url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Semibold.woff') format('woff'),
+      url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Semibold.woff2') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+  .container {
+    max-width: 1300px;
+    padding: 0 5px;
+    margin: 0 auto;
+  }
+  
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1330px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-center {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    justify-content: space-between;
+}
+
+.container-center1 {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1290px;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.container2 {
+    margin: 0 auto;
+    max-width: 1290px;
+    padding: 0 15px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-bottom: 80px;
+}
+
+ 
