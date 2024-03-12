@@ -1,0 +1,30 @@
+@import '/Users/alexandreborella/Desktop/localise/localize-project/styles/header.scss';
+@import '/Users/alexandreborella/Desktop/localise/localize-project/styles/localise.scss';
+@import '/Users/alexandreborella/Desktop/localise/localize-project/styles/man-revolut-section.scss';
+@import '/Users/alexandreborella/Desktop/localise/localize-project/styles/boost-section.scss';
+@import '/Users/alexandreborella/Desktop/localise/localize-project/styles/section-tort.scss';
+@import '/Users/alexandreborella/Desktop/localise/localize-project/styles/last page.scss';
+@import '/Users/alexandreborella/Desktop/localise/localize-project/styles/section-footer.scss';
+@import '/Users/alexandreborella/Desktop/localise/localize-project/styles/global.scss';
+@import '/Users/alexandreborella/Desktop/localise/localize-project/styles/bird section.scss';
+@import '/Users/alexandreborella/Desktop/localise/localize-project/styles/beige.cards.scss';
+
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Regular.woff2') format('woff2'),
+        url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Regular.woff') format('woff'),
+        url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Regular.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Semibold.ttf') format('woff2'),
+        url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Semibold.woff') format('woff'),
+        url('./fonts/transfonter.org-20240220-140411/GraphikLCG-Semibold.woff2') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
